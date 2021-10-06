@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "mainBG": "hsl(222, 26%, 31%)",
+    "toggleNButtonsBG": "hsl(223, 31%, 20%)",
+    "outputBG": "hsl(224, 36%, 15%)",
+    "outputText": "white",
+    "buttonBG": "hsl(225, 21%, 49%)",
+    "buttonShadow": "hsl(224, 28%, 35%)",
+    "toggle": "hsl(6, 63%, 50%)",
+    "toggleBG": "hsl(6, 70%, 34%)",
+    "equalBG": "hsl(30, 25%, 89%)",
+    "equalShadow": "hsl(28, 16%, 65%)",
+    "darkText": "hsl(221, 14%, 31%)",
+    "lightText": "hsl(0, 0, 100%)",
+    "equalText": "white"
+  },
+  {
+    "id": 2,
+    "mainBG": "hsl(0, 0%, 90%)",
+    "toggleNButtonsBG": "hsl(0, 5%, 81%)",
+    "outputBG": " hsl(0, 0%, 93%)",
+    "outputText": "hsl(60, 10%, 19%)",
+    "buttonBG": "hsl(185, 42%, 37%)",
+    "buttonShadow": "hsl(185, 58%, 25%)",
+    "toggle": "hsl(25, 98%, 40%)",
+    "toggleBG": "hsl(25, 99%, 27%)",
+    "equalBG": "hsl(45, 7%, 89%)",
+    "equalShadow": "hsl(35, 11%, 61%)",
+    "darkText": "hsl(60, 10%, 19%)",
+    "lightText": "hsl(0, 0, 100%)",
+    "equalText": "white"
+  },
+  {
+    "id": 3,
+    "mainBG": "hsl(268, 75%, 9%)",
+    "toggleNButtonsBG": "hsl(268, 71%, 12%)",
+    "outputBG": "hsl(268, 71%, 12%)",
+    "outputText": "hsl(52, 100%, 62%)",
+    "buttonBG": "hsl(281, 89%, 26%)",
+    "buttonShadow": "hsl(285, 91%, 52%)",
+    "toggle": " hsl(176, 100%, 44%)",
+    "toggleBG": "hsl(177, 92%, 70%)",
+    "equalBG": "hsl(268, 47%, 21%)",
+    "equalShadow": "hsl(290, 70%, 36%)",
+    "darkText": "hsl(52, 100%, 62%)",
+    "lightText": "hsl(0, 0, 100%)",
+    "equalText": "black"
+  }
+]

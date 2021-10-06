@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.calculator {
+  width: 500px;
+  height: 700px;
+  margin: 150px auto;
+  display: grid;
+  grid-template-rows: calc(15% - 10px) calc(15% - 10px) calc(70% - 10px);
+  row-gap: 30px;
+}
+
+button {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.header {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  position: relative;
+}
+
+.header h1 {
+  font-weight: 900;
+  font-size: 50px;
+  padding: 10px 0;
+}
+
+.header h2 {
+  font-weight: 900;
+  font-size: 15px;
+  transform: translateY(50px) translateX(50px);
+}
+
+.theme-selector {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.theme-selector .labels,
+.theme-selector .selections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
+.theme-selector .selections {
+  border-radius: 20px;
+}
+
+.theme-selector .selections button {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin: 0 auto;
+  border: none;
+  position: relative;
+}
+
+.output {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  text-align: right;
+  padding: 20px 20px;
+}
+
+.output {
+  font-size: 20px;
+}
+
+.output h1 {
+  font-weight: 900;
+}
+
+.buttons {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: calc(80% - 5px) calc(20% - 5px);
+  row-gap: 10px;
+}
+
+.buttons button {
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons .squares {
+  display: grid;
+  grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(
+      25% - 7.5px
+    );
+
+  grid-gap: 10px;
+}
+
+.buttons .rectangle {
+  display: grid;
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  column-gap: 10px;
+}
+
+.buttons .reset {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 376px) {
+  .App {
+    padding: 30px;
+    height: 100vh;
+  }
+
+  .calculator {
+    width: 100%;
+    height: calc(100% - 50px);
+    margin: 0;
+  }
+
+  .header h1 {
+    font-weight: 900;
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  .header h2 {
+    font-weight: 900;
+    font-size: 15px;
+    transform: translateY(30px);
+  }
+
+  .theme-selector .selections button {
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .output {
+    padding: 10px 20px;
+  }
+}
